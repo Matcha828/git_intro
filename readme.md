@@ -52,5 +52,20 @@
 * 9b. git add -A and git commit -m "add gitignore"
 
 
+# Git Branches
+* Listing all branches - git branch
+* Adding a branch - git checkout -b feature1
+* Changing branches - git checkout master
+* Merging a branch - 1.git merge feature1 2.ctrl + X
+* Removing a branch - git branch -d feature1
+
+          /-----0---0----0
+         /              /
+0-------0----0----0----0
+
+#UPLOAD PROJECT TO GITHUB
+* git remote add origin git@github.com:Matcha828/git_intro.git
+* check by using git remote -v
+* git push -u origin master
 
 
